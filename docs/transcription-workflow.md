@@ -29,4 +29,4 @@ Use this checklist for every transcript-backed note. Keep audio, captions, trans
 - [ ] Model, alignment, and diarization terms were checked for the intended use.
 - [ ] Sensitive recordings and derived artifacts remain in ignored `raw/`, `private/`, `audio/`, or `transcripts/` paths.
 
-For backend selection and the distinction between ASR timestamps and speaker labels, see the toolkit's [ASR backend comparison](../../media-distillation-toolkit/docs/asr-backends.md) and [optional ASR quickstart](../../media-distillation-toolkit/docs/quickstart-asr.md).
+For backend selection and the distinction between ASR timestamps and speaker labels, see the toolkit's [ASR backend comparison](https://github.com/darkrei08/media-distillation-toolkit/blob/master/docs/asr-backends.md) and [optional ASR quickstart](https://github.com/darkrei08/media-distillation-toolkit/blob/master/docs/quickstart-asr.md).

@@ -21,8 +21,8 @@ Raw audio, downloaded captions, and transcripts belong under those ignored direc
 From a workspace directory, use the canonical repository URLs supplied by your project, then open the course repository alongside the toolkit:
 
 ```sh
-git clone YOUR_MEDIA_DISTILLATION_TOOLKIT_URL media-distillation-toolkit
-git clone YOUR_MICIODEV_KNOWLEDGE_URL miciodev-course-knowledge
+git clone https://github.com/darkrei08/media-distillation-toolkit.git media-distillation-toolkit
+git clone https://github.com/darkrei08/miciodev-course-knowledge.git miciodev-course-knowledge
 cd miciodev-course-knowledge
 ```
 
@@ -36,8 +36,8 @@ ls ../media-distillation-toolkit
 PowerShell:
 
 ```powershell
-git clone YOUR_MEDIA_DISTILLATION_TOOLKIT_URL media-distillation-toolkit
-git clone YOUR_MICIODEV_KNOWLEDGE_URL miciodev-course-knowledge
+git clone https://github.com/darkrei08/media-distillation-toolkit.git media-distillation-toolkit
+git clone https://github.com/darkrei08/miciodev-course-knowledge.git miciodev-course-knowledge
 Set-Location miciodev-course-knowledge
 Get-ChildItem ..\media-distillation-toolkit
 ```
@@ -143,11 +143,11 @@ mkdir -p raw private transcripts audio
 New-Item -ItemType Directory -Force raw, private, transcripts, audio | Out-Null
 ```
 
-Put locally retrieved audio, captions, intermediate JSON, and rendered transcript Markdown only in those directories. Normalize a selected local source to 16 kHz mono WAV with the [`ffmpeg` recipe in the toolkit ASR quickstart](../media-distillation-toolkit/docs/quickstart-asr.md).
+Put locally retrieved audio, captions, intermediate JSON, and rendered transcript Markdown only in those directories. Normalize a selected local source to 16 kHz mono WAV with the [`ffmpeg` recipe in the toolkit ASR quickstart](https://github.com/darkrei08/media-distillation-toolkit/blob/master/docs/quickstart-asr.md).
 
 ### 5. Transcribe one selected video
 
-Use the documented faster-whisper baseline in [`media-distillation-toolkit/docs/quickstart-asr.md`](../media-distillation-toolkit/docs/quickstart-asr.md), in its separate optional environment. The following compact variant assumes `audio/<video-id>-16k-mono.wav` already exists and writes only ignored output:
+Use the documented faster-whisper baseline in [`media-distillation-toolkit/docs/quickstart-asr.md`](https://github.com/darkrei08/media-distillation-toolkit/blob/master/docs/quickstart-asr.md), in its separate optional environment. The following compact variant assumes `audio/<video-id>-16k-mono.wav` already exists and writes only ignored output:
 
 ```sh
 python3 -m pip install faster-whisper  # run only inside the optional ASR environment
@@ -269,7 +269,7 @@ Inspect the rendered Markdown and `git status` before proposing any repository c
 
 ## Evidence boundary
 
-The currently committed material is metadata-derived or code-derived: playlist IDs, titles, URLs, topic grouping, and observations tied to the linked public repositories. It is not transcript-derived. A transcript-derived claim may be added only after a local transcript or caption source is recorded with provenance, timestamps, confidence, and human verification. See [`docs/transcription-workflow.md`](docs/transcription-workflow.md) and the toolkit's [`docs/asr-backends.md`](../media-distillation-toolkit/docs/asr-backends.md).
+The currently committed material is metadata-derived or code-derived: playlist IDs, titles, URLs, topic grouping, and observations tied to the linked public repositories. It is not transcript-derived. A transcript-derived claim may be added only after a local transcript or caption source is recorded with provenance, timestamps, confidence, and human verification. See [`docs/transcription-workflow.md`](docs/transcription-workflow.md) and the toolkit's [`docs/asr-backends.md`](https://github.com/darkrei08/media-distillation-toolkit/blob/master/docs/asr-backends.md).
 
 ## Sources
 
