@@ -1,0 +1,90 @@
+[
+  {
+    "id": "Ms1jNmZYngQ",
+    "title": "Laravel 13 + Vue 3 da ZERO: iniziamo un progetto REALE | Corso #01",
+    "url": "https://www.youtube.com/watch?v=Ms1jNmZYngQ",
+    "source": "https://www.youtube.com/playlist?list=PLHG2hvLRbYZI",
+    "topic": "foundations/architecture",
+    "evidence_status": "metadata-verified"
+  },
+  {
+    "id": "RM02ecHr-K8",
+    "title": "Come funziona Laravel? Route → Controller → JSON | Corso #02",
+    "url": "https://www.youtube.com/watch?v=RM02ecHr-K8",
+    "source": "https://www.youtube.com/playlist?list=PLHG2hvLRbYZI",
+    "topic": "HTTP/API flow",
+    "evidence_status": "metadata-verified"
+  },
+  {
+    "id": "eh7ud3lZekw",
+    "title": "Database Laravel 13: Migration, Model ed Eloquent | Corso #03",
+    "url": "https://www.youtube.com/watch?v=eh7ud3lZekw",
+    "source": "https://www.youtube.com/playlist?list=PLHG2hvLRbYZI",
+    "topic": "database/Eloquent",
+    "evidence_status": "metadata-verified"
+  },
+  {
+    "id": "QYGMMaBhA3M",
+    "title": "CRUD REST fatto BENE: FormRequest + API Resource | Laravel #04",
+    "url": "https://www.youtube.com/watch?v=QYGMMaBhA3M",
+    "source": "https://www.youtube.com/playlist?list=PLHG2hvLRbYZI",
+    "topic": "validation/API resources",
+    "evidence_status": "metadata-verified"
+  },
+  {
+    "id": "-JDAc6m4IQI",
+    "title": "Laravel Sanctum: autenticazione SPA spiegata BENE | Corso #05",
+    "url": "https://www.youtube.com/watch?v=-JDAc6m4IQI",
+    "source": "https://www.youtube.com/playlist?list=PLHG2hvLRbYZI",
+    "topic": "SPA auth",
+    "evidence_status": "metadata-verified"
+  },
+  {
+    "id": "UVdI2hTRPw8",
+    "title": "Login, Register e Logout con FormRequest | Laravel 13 #06",
+    "url": "https://www.youtube.com/watch?v=UVdI2hTRPw8",
+    "source": "https://www.youtube.com/playlist?list=PLHG2hvLRbYZI",
+    "topic": "auth flow",
+    "evidence_status": "metadata-verified"
+  },
+  {
+    "id": "3Dpim5Vk9sY",
+    "title": "BUG: ogni utente vede i clienti degli altri! Ownership | #07",
+    "url": "https://www.youtube.com/watch?v=3Dpim5Vk9sY",
+    "source": "https://www.youtube.com/playlist?list=PLHG2hvLRbYZI",
+    "topic": "ownership/data isolation",
+    "evidence_status": "metadata-verified"
+  },
+  {
+    "id": "ciMmwi4gnnc",
+    "title": "Laravel Policies: Authentication ≠ Authorization | Corso #08",
+    "url": "https://www.youtube.com/watch?v=ciMmwi4gnnc",
+    "source": "https://www.youtube.com/playlist?list=PLHG2hvLRbYZI",
+    "topic": "authorization",
+    "evidence_status": "metadata-verified"
+  },
+  {
+    "id": "fxhOFTLCWCg",
+    "title": "Relazioni Eloquent + PHP Enum + Casting | Laravel 13 #09",
+    "url": "https://www.youtube.com/watch?v=fxhOFTLCWCg",
+    "source": "https://www.youtube.com/playlist?list=PLHG2hvLRbYZI",
+    "topic": "relations/enums/casting",
+    "evidence_status": "metadata-verified"
+  },
+  {
+    "id": "sARWP3eIlgA",
+    "title": "Colleghiamo Vue 3 a Laravel: Axios + Pinia + Sanctum | #10",
+    "url": "https://www.youtube.com/watch?v=sARWP3eIlgA",
+    "source": "https://www.youtube.com/playlist?list=PLHG2hvLRbYZI",
+    "topic": "frontend/backend integration",
+    "evidence_status": "metadata-verified"
+  },
+  {
+    "id": "StJRKILhPIE",
+    "title": "Login e Registrazione Vue 3 + Route Guard | Laravel #11",
+    "url": "https://www.youtube.com/watch?v=StJRKILhPIE",
+    "source": "https://www.youtube.com/playlist?list=PLHG2hvLRbYZI",
+    "topic": "frontend auth/route guards",
+    "evidence_status": "metadata-verified"
+  }
+]

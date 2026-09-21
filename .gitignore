@@ -1,0 +1,15 @@
+# Private source material: keep raw audio, captions, transcripts, and generated artifacts out of Git.
+raw/
+private/
+artifacts/
+transcripts/
+audio/
+*.mp3
+*.mp4
+*.wav
+*.m4a
+*.vtt
+*.srt
+*.jsonl
+
+.DS_Store
